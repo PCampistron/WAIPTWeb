@@ -1,0 +1,212 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #292929;
+ 
+}
+
+header {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+grid-template-areas: "gauche milieu droite";
+background-color: #1c1c1c;
+}
+
+#gauche
+{
+  grid-area: gauche;
+  padding : 3%;
+}
+
+#centre
+{
+  grid-area: milieu;
+  text-align: center;
+  padding : 3%;
+}
+
+#centre ul
+{
+  list-style: none;
+  color: white;
+  padding-left: 0;
+}
+
+#centre li
+{
+  display: inline;
+  padding: 0 10px;
+}
+
+#droite
+{
+  grid-area: droite;
+  text-align: right;
+  padding : 3%;
+}
+
+#droite a
+{
+  margin-right: 30px;
+}
+
+main
+{
+  height: 50%;
+}
+
+.container
+{
+  text-align: center;
+  
+}
+
+.container > * 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container input
+{
+  margin: 10px 0;
+  width: 50%;
+}
+
+.Button1
+{
+  display: block;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #f05f40;
+  border-radius: 30px;
+  padding: 16px 24px;
+  margin: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.rechercheJeu > * {
+  display: inline;
+}
+
+/* Menu deroulant essai */
+.parametresRecherche > *{
+}
+.menuDeroulant {
+
+}
+
+.menuDeroulant li {
+
+  float: left;
+  list-style: none;
+
+}
+
+.menuDeroulant div {
+
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.menuDeroulant li ul {
+  display: none; 
+  
+  
+}
+
+.menuDeroulant li:hover ul {
+  display: block;
+}
+/* Fin menu deroulant  */
+
+.top3 .premier{
+  margin: 0;
+  position: relative;
+  top: 40px;
+  left: 47%;
+}
+
+.top3 .deuxieme{
+  margin: 0;
+  position: relative;
+  top: 5px;
+  left: 37%;
+}
+
+.top3 .troisieme{
+  margin: 0;
+  position: absolute;
+  top: 340px;
+  left: 57%;
+}
+
+.top3 .nomJeu1{
+  margin: 0;
+  position: relative;
+  top: 40px;
+  left: 48%;
+  color: #f05f40;
+}
+
+.top3 .nomJeu2{
+  margin: 0;
+  position: relative;
+  top: 5px;
+  left: 38%;
+  color: aliceblue;
+}
+
+.top3 .nomJeu3{
+  margin: 0;
+  position: absolute;
+  top: 470px;
+  left: 58%;
+  color: aliceblue;
+}
+
+
+
+.intituleJeu{
+  color: #e9e6f0;
+  font-size:24px;
+}
+
+.prix{
+  color: #e9e6f0;
+  font-size:24px;
+}
+
+.bandeauJeu{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.vitrine{
+  grid-area: 1 / 2 / 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 6px; 
+}
+  
+.corpsCatalogue{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+grid-template-rows: 1fr; 
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+  
