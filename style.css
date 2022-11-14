@@ -84,7 +84,7 @@ main
   border: none;
   color: white;
   font-weight: bold;
-  background-color: #f05f40;
+  background-color: #f4a261;
   border-radius: 30px;
   padding: 16px 24px;
   margin: 10px 0;
@@ -210,3 +210,31 @@ grid-template-rows: 1fr;
   grid-row-gap: 0px;
 }
   
+footer {
+  margin-top: 10%;
+  display: grid;
+  background-color: #264653;
+}
+
+.Newsletter {
+  text-align: center;
+  display: inline-block;
+
+  color:white
+}
+
+.Newsletter > p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.mentionsLegales {
+  padding-top: 1%;
+  text-align: center;
+
+  border-top: #292929 solid 0.5px;
+}
+
+.mentionsLegales > p {
+  margin-left: 2%;
+}
